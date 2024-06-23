@@ -53,6 +53,7 @@ public class Canva extends javax.swing.JFrame implements ClipboardOwner {
         canva = new Programs.PanelRound();
         exportPanel = new Programs.PanelRound();
         exportLabel = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -393,6 +394,9 @@ public class Canva extends javax.swing.JFrame implements ClipboardOwner {
         );
 
         canva.add(exportPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1004, 594, 130, 30));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Captura de pantalla 2022-09-19 202100.png"))); // NOI18N
+        canva.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 100, 500, 370));
 
         getContentPane().add(canva, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1140, 630));
 
@@ -778,6 +782,7 @@ public class Canva extends javax.swing.JFrame implements ClipboardOwner {
     private javax.swing.JLabel exportLabel;
     private Programs.PanelRound exportPanel;
     private javax.swing.JCheckBox fillCheck;
+    private javax.swing.JLabel jLabel1;
     private Programs.PanelRound lineBotton;
     private javax.swing.JLabel lineLabel;
     private javax.swing.JLabel message;
